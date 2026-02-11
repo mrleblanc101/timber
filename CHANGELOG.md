@@ -1,5 +1,36 @@
 # Changelog
 
+## [2.4.0](https://github.com/timber/timber/compare/v2.3.3...v2.4.0) (2026-02-11)
+
+
+### Features
+
+* Add ancestors method to Timber\Post ([#3158](https://github.com/timber/timber/issues/3158)) ([a4e02a9](https://github.com/timber/timber/commit/a4e02a9f77abdfe54f7bde2e02010db8e2778174))
+
+
+### Bug Fixes
+
+* **docs:** Fix classname for `Timber\Helper` in performance docs ([#3156](https://github.com/timber/timber/issues/3156)) ([1798ba9](https://github.com/timber/timber/commit/1798ba98c5b92e841bcce41e43e3e1c9ce061f48))
+* fix empty $params returning timber object ([#3179](https://github.com/timber/timber/issues/3179)) ([e732609](https://github.com/timber/timber/commit/e73260942bcb1e02428304795f6522304b29edf5))
+* Fix timezone bug when transforming ACF date fields ([#3163](https://github.com/timber/timber/issues/3163)) ([513fc62](https://github.com/timber/timber/commit/513fc62fb70e7c57d388a954057ca4dffe34c7f5))
+* PHP 8.5 `null` index deprecations ([86a6b44](https://github.com/timber/timber/commit/86a6b4403ebd540749cdac170f28bd82b2724c23))
+* Refactor ACF transform hooks ([279e932](https://github.com/timber/timber/commit/279e9320ea7f852aa7cfc7290915dfd606c1e49b))
+* Update static analysis workflow to correctly handle changed files ([533181b](https://github.com/timber/timber/commit/533181b8d1d0beb7b420c8f7dd26046847310d0f))
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump symfony/process from 7.4.3 to 7.4.5 ([#3187](https://github.com/timber/timber/issues/3187)) ([c81733b](https://github.com/timber/timber/commit/c81733b23a4d84d900c4b97264270d19203576b8))
+* **deps:** bump actions/checkout from 4 to 6 ([f1efafd](https://github.com/timber/timber/commit/f1efafd67ad4bc7715c2708bbe9ddb0a81d631cb))
+* **deps:** bump actions/checkout from 5 to 6 ([#3160](https://github.com/timber/timber/issues/3160)) ([4d6b9a6](https://github.com/timber/timber/commit/4d6b9a6986366dc7fb6e41ec301bc5c6ff255536))
+* **deps:** bump lycheeverse/lychee-action from 2.6.1 to 2.7.0 ([#3157](https://github.com/timber/timber/issues/3157)) ([4f7bde4](https://github.com/timber/timber/commit/4f7bde4b9580652274d259b5c514e0cad5394ea9))
+* **deps:** bump peter-evans/create-issue-from-file from 5 to 6 ([#3154](https://github.com/timber/timber/issues/3154)) ([1bfd169](https://github.com/timber/timber/commit/1bfd169533393cbc169bbfd72a814089cbd911ac))
+* **deps:** Update Composer dependencies ([#3165](https://github.com/timber/timber/issues/3165)) ([31c78f9](https://github.com/timber/timber/commit/31c78f9ee73952d9b7eebd749633f2fc71e15cb6))
+* **deps:** update content-hash and bump easy-coding-standard to version 13.0.4 ([c451ded](https://github.com/timber/timber/commit/c451dedf1efc63c9c12c1504e8a37c8806d805f1))
+* **deps:** update mantle-framework dependencies to version 1.16 ([e752c14](https://github.com/timber/timber/commit/e752c146474bf2945d938d5ef07c8fd9a5dedf0b))
+* Update CODEOWNERS ([#3166](https://github.com/timber/timber/issues/3166)) ([aa38e98](https://github.com/timber/timber/commit/aa38e984b5b21974ac8790d698c10cfe2914b60c))
+* update README badges for Codecov and remove Coveralls and Scrutinizer links ([d89bff9](https://github.com/timber/timber/commit/d89bff9560a257c35a24eac0f4870da6a8d26f31))
+
 ## [2.3.3](https://github.com/timber/timber/compare/v2.3.2...v2.3.3) (2025-09-17)
 
 
